@@ -1,4 +1,4 @@
-git.black2wh.it/joo/Homelab
+git.black2wh.it
 --------
 
 홈랩/홈서버 운영에 필요했던 설정 파일이나 참고한 온라인 문서등을 모읍니다.
