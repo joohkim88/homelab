@@ -1,0 +1,4 @@
+# 로컬에서 수정 후
+git commit -a
+
+git push origin master
