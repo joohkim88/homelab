@@ -34,3 +34,7 @@ $ certbot certonly --webroot --webroot-path=/var/www/html --expand -d black2wh.i
 
 # Renew 되는지 테스트
 $ certbot renew --dry-run
+
+
+# Crontab
+* 4 * * 1 /usr/bin/certbot renew --quiet --noninteractive --renew-hook "service nginx reload" >> /var/log/le-renew.log
