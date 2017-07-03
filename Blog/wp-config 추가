@@ -1,4 +1,5 @@
 // 출처: https://cmanios.wordpress.com/2014/04/12/nginx-https-reverse-proxy-to-wordpress-with-apache-http-and-different-port/
+// wp-config 파일의 가장 위에 추가해야함.
 
 // If WordPress is behind reverse proxy 
 // which proxies https to http
