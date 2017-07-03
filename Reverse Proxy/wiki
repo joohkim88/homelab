@@ -1,0 +1,22 @@
+server {
+    listen 443 ssl;
+
+    server_name wiki.black2wh.it;
+
+    root /var/www/html;
+
+    include snippets/ssl-black2wh.it.conf;
+    include snippets/ssl-params.conf;
+
+    #add_header Strict-Transport-Security "max-age=31536000";
+
+    access_log /var/log/nginx/sub.log combined;
+
+    location /.well-known {
+        alias /var/www/html/.well-known;
+    }
+
+    location / {
+        return 301 https://git.black2wh.it/joo/Homelab/wiki;
+        }
+}
