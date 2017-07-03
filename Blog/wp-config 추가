@@ -1,0 +1,20 @@
+// 출처: https://cmanios.wordpress.com/2014/04/12/nginx-https-reverse-proxy-to-wordpress-with-apache-http-and-different-port/
+
+// If WordPress is behind reverse proxy 
+// which proxies https to http
+if ( (!empty( $_SERVER['HTTP_X_FORWARDED_HOST'])) ||
+     (!empty( $_SERVER['HTTP_X_FORWARDED_FOR'])) ) { 
+ 
+    // http://wordpress.org/support/topic/wordpress-behind-reverse-proxy-1
+    $_SERVER['HTTP_HOST'] = $_SERVER['HTTP_X_FORWARDED_HOST'];
+ 
+    define('WP_HOME', 'https://black2wh.it');
+    define('WP_SITEURL', 'https://black2wh.it');
+ 
+    // rewrite blog word with wordpress
+    $_SERVER['REQUEST_URI'] = str_replace("wordpress", "blog",
+    $_SERVER['REQUEST_URI']);
+ 
+    // http://wordpress.org/support/topic/compatibility-with-wordpress-behind-a-reverse-proxy
+    $_SERVER['HTTPS'] = 'on';
+}
