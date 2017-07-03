@@ -1,5 +1,5 @@
 # 시간대 설정
-$ dpkg-reconfigure tzdata
+dpkg-reconfigure tzdata
 
 # Locale 설정
 export LANGUAGE=en_US.UTF-8
@@ -9,13 +9,13 @@ locale-gen en_US.UTF-8
 dpkg-reconfigure locales
 
 # 소스 미러를 바꿔줌 - kr.debian이나 kr.ubuntu가 다운이 종종 됨.
-$ nano /etc/apt/sources.list
+nano /etc/apt/sources.list
 ftp.daumkakao.com
 
 # 홈랩 내의 apt-cache 프록시
-$ nano /etc/apt/apt.conf.d/01proxy
+nano /etc/apt/apt.conf.d/01proxy
 Acquire::http::Proxy "http://192.168.0.109:3142";
 Acquire::https::Proxy "DIRECT";
 
 # 업데이트, fish shell 설치, 재부팅
-$ apt-get update ; apt-get dist-upgrade -y ; apt-get install fish -y ; apt autoremove -y ; usermod -s /usr/bin/fish root ; reboot
+apt-get update ; apt-get dist-upgrade -y ; apt-get install fish -y ; apt autoremove -y ; usermod -s /usr/bin/fish root ; reboot
