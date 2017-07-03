@@ -1,6 +1,9 @@
 # 시간대 설정
 $ dpkg-reconfigure tzdata
 
+# Locale 설정
+$ dpkg-reconfigure locales
+
 # 소스 미러를 바꿔줌 - kr.debian이나 kr.ubuntu가 다운이 종종 됨.
 $ nano /etc/apt/sources.list
 ftp.daumkakao.com
