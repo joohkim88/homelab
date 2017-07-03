@@ -1,0 +1,14 @@
+server {
+        listen 80;
+        listen [::]:80;
+
+        server_name *.black2wh.it;
+
+        root /var/www/html;
+
+        location /.well-known {
+           alias /var/www/html/.well-known;
+           allow all;
+        }
+        return 301 https://$host$request_uri;
+}
