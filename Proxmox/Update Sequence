@@ -1,0 +1,5 @@
+# Proxmox OS, 컨테이너들 업데이트 후 리부팅 시퀀스
+
+$ apt update ; apt dist-upgrade -y ; apt autoremove -y ; ./containerupdate.sh
+
+# Web GUI에서 Reboot 눌러준다.
