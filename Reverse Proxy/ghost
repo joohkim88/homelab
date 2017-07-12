@@ -58,7 +58,7 @@ server {
         proxy_cache_use_stale error timeout http_500 http_502 http_503 http_504;
     }
 
-    location = /content/images/2017/07/hotlink.png { proxy_pass http://192.168.0.xxx:xxxx/content/images/2017/07/hotlink.png
+    location = /content/images/2017/07/hotlink.png { proxy_pass http://192.168.0.xxx:xxxx/content/images/2017/07/hotlink.png; }
 
     location ~* \.(css|js|ttf|woff|eot|svg|woff2)$ {
 
