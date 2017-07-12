@@ -27,7 +27,7 @@ git.black2wh.it
 
 Proxmox 하이퍼바이저 
 --------
-##### Version 5.0 Beta 2
+##### Version 5.0
 #### 돌아가는 컨테이너들 리스트
 * nginx 리버스 프록시
 * 고스트 블로그
