@@ -1,0 +1,44 @@
+server {
+    listen 443 ssl;
+
+    server_name analytics.black2wh.it;
+
+    root /var/www/html;
+
+    include snippets/ssl-black2wh.it.conf;
+    include snippets/ssl-params.conf;
+
+    #add_header Strict-Transport-Security "max-age=31536000";
+
+    access_log /var/log/nginx/sub.log combined;
+
+    location /.well-known {
+        alias /var/www/html/.well-known;
+    }
+
+    location / {
+        proxy_pass http://192.168.0.xxx;
+
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection $http_connection;
+        proxy_set_header X-Forwarded-Host $host:$server_port;
+    }
+    location ~* \.(css|js|ttf|woff|eot|svg|woff2|jpg|jpeg|gif|png)$ {
+
+        proxy_pass http://192.168.0.xxx;
+
+        proxy_set_header   X-Real-IP          $remote_addr;
+        proxy_set_header   Host               $host;
+        proxy_set_header   X-Forwarded-For    $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Proto  https;
+
+        expires 30d;
+        proxy_cache b2wcache;
+        proxy_cache_revalidate on;
+        proxy_cache_valid 200 302 1440m;
+        proxy_cache_valid 404 1m;
+        proxy_cache_use_stale error timeout http_500 http_502 http_503 http_504;
+    }
+
+}
