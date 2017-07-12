@@ -15,7 +15,7 @@ git.black2wh.it
 홈서버 사양
 ------
 ### HP Prodesk 600 G1 Mini
-![homeserver](https://git.black2wh.it/joo/Homelab/src/master/Images/homeserver.jpg)
+![homeserver](https://git.black2wh.it/joo/Homelab/raw/master/Images/homeserver.jpg)
 
 
 * Intel i5 4590t 2.0GHz 4 core/4 thread, TDP 35W
