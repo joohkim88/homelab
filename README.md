@@ -30,8 +30,8 @@ Proxmox 하이퍼바이저
 ##### Version 5.0 Beta 2
 #### 돌아가는 컨테이너들 리스트
 * nginx 리버스 프록시
-* 워드프레스 블로그
-* Pi-hole
+* 고스트 블로그
+* Pi-hole - 네트워크 애드블록
 * 플렉스 미디어 서버
 * Seafile - 개인 클라우드 스토리지
 * OpenVPN
@@ -41,6 +41,8 @@ Proxmox 하이퍼바이저
 * Apt-cacher-ng - 데비안 계열 deb 파일들 프록시/캐시
 * Tiny tiny RSS
 * DAVical - 개인 캘린더
+* Piwik - 개인 애널리틱스
+* HTMLy 
 
 #### 돌아가는 VM 리스트
 * Windows 10 Pro
