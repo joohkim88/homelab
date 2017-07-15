@@ -42,7 +42,8 @@ Proxmox 하이퍼바이저
 * Tiny tiny RSS
 * DAVical - 개인 캘린더
 * Piwik - 개인 애널리틱스
-* HTMLy 
+* Cloud9 - IDE 웹앱
+* Rstudio Server 
 
 #### 돌아가는 VM 리스트
 * Windows 10 Pro
