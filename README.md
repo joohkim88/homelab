@@ -1,4 +1,4 @@
-git.black2wh.it
+black2wh.it
 --------
 
 홈랩/홈서버 운영에 필요했던 설정 파일이나 참고한 온라인 문서등을 모읍니다.
@@ -35,7 +35,6 @@ Proxmox 하이퍼바이저
 * 플렉스 미디어 서버
 * Seafile - 개인 클라우드 스토리지
 * OpenVPN
-* Gogs - 이 페이지가 이겁니다.
 * Torrent
 * Guacamole - HTML5로 원격 데스크탑
 * Apt-cacher-ng - 데비안 계열 deb 파일들 프록시/캐시
@@ -44,6 +43,7 @@ Proxmox 하이퍼바이저
 * Piwik - 개인 애널리틱스
 * Cloud9 - IDE 웹앱
 * Rstudio Server 
+* The Lounge - IRC 웹 클라이언트
 
 #### 돌아가는 VM 리스트
-* Windows 10 Pro
+* Windows 10
