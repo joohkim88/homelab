@@ -1,7 +1,7 @@
 $ nano /usr/local/bin/ddns.sh
 
 #!/bin/sh
-/usr/bin/wget -O - --http-user=xxxx --http-passwd=xxxxx 'http://dyna.dnsever.com/update.php?host[black2wh.it]&host[www.black2wh.it].....'
+/usr/bin/wget -O - --http-user=xxxx --http-passwd=xxxxx 'http://dyna.dnsever.com/update.php?host[black2wh.it]&host[*.black2wh.it]'
 
 
 $ chmod +x /usr/local/bin/ddns.sh
