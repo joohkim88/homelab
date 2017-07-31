@@ -1,3 +1,7 @@
+# 원래 자체 서명된 HTTPS 프로토콜을 쓰는걸 HTTP로 바꾼다. 그냥 커맨트 아웃한거라 좀 지저분하다.
+# Let's encrypt 리버스 프록시 아래서 작동할 것.
+
+
 server {
   listen       80;
   server_name  "";
