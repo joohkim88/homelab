@@ -16,5 +16,5 @@ nano /etc/apt/sources.list
 ftp.kr.debian.org
 kr.archive.ubuntu.com
 
-# 업데이트, fish shell 설치, 재부팅
-apt update ; apt dist-upgrade -y ; apt install fish vim -y ; apt autoremove -y ; usermod -s /usr/bin/fish root ; reboot
+# 업데이트, fish shell, vim 설치
+apt update ; apt dist-upgrade -y ; apt install fish vim -y ; apt autoremove -y ; usermod -s /usr/bin/fish root
