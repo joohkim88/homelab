@@ -91,7 +91,7 @@ setTimeout(function(){
 
 <div style="width: 100%; text-align: center; display: inline-block;">
 
-    <div style="width: 100%; height: 24vh; text-align: center; display: inline-block;">
+    <div style="width: 100%; height: 30vh; text-align: center; display: inline-block;">
         <div style="width: 100%; height: calc(100% - 15px); text-align: center; display: inline-block;">
             <br/>
             <div data-netdata="system.cpu"
@@ -102,6 +102,19 @@ setTimeout(function(){
                     data-after="-300"
                     data-dygraph-valuerange="[0, 100]"
                     ></div>
+            <div data-netdata="apps.cpu"
+                    data-title="CPU Time"
+                    data-chart-library="dygraph"
+                    data-width="49%"
+                    data-height="100%"
+                    data-after="-300"
+                    data-dygraph-valuerange="[0, 100]"
+                    ></div>
+        </div>
+    </div>
+
+    <div style="width: 100%; height: 30vh; text-align: center; display: inline-block;">
+        <div style="width: 100%; height: calc(100% - 15px); text-align: center; display: inline-block;">
             <div data-netdata="sensors.coretemp_isa_0000_temperature"
                     data-dimensions="Core 0"
                     data-dygraph-valuerange="[35, 60]"
@@ -111,12 +124,7 @@ setTimeout(function(){
                     data-height="100%"
                     data-after="-300"
                     ></div>
-        </div>
-    </div>
-
-    <div style="width: 100%; height: 24vh; text-align: center; display: inline-block;">
-        <div style="width: 100%; height: calc(100% - 15px); text-align: center; display: inline-block;">
-            <div data-netdata="system.ram"
+	    <div data-netdata="system.ram"
                     data-title="Memory Usage"
                     data-chart-library="dygraph"
                     data-width="49%"
@@ -124,22 +132,13 @@ setTimeout(function(){
                     data-after="-300"
                     data-dygraph-valuerange="[0, 16200]"
                     ></div>
-            <div data-netdata="net.eno1"
-                    data-common-max="traffic"
-                    data-common-min="traffic"
-                    data-title="IPv4 traffic"
-                    data-chart-library="dygraph"
-                    data-width="49%"
-                    data-height="100%"
-                    data-after="-300"
-                    ></div>
-        </div>
+	    </div>
     </div>
 
-    <div style="width: 100%; height: 24vh; text-align: center; display: inline-block;">
+    <div style="width: 100%; height: 30vh; text-align: center; display: inline-block;">
         <div style="width: 100%; height: calc(100% - 15px); text-align: center; display: inline-block;">
-            <div data-netdata="disk.sdb"
-                    data-title="HDD I/O"
+            <div data-netdata="system.io"
+                    data-title="Disk I/O"
                     data-common-max="io"
                     data-common-min="io"
                     data-chart-library="dygraph"
@@ -147,10 +146,10 @@ setTimeout(function(){
                     data-height="100%"
                     data-after="-300"
                     ></div>
-            <div data-netdata="disk.nvme0n1"
-                    data-title="NVMe I/O"
-                    data-common-max="io"
-                    data-common-min="io"
+            <div data-netdata="system.net"
+                    data-common-max="traffic"
+                    data-common-min="traffic"
+                    data-title="Traffic"
                     data-chart-library="dygraph"
                     data-width="49%"
                     data-height="100%"
@@ -158,12 +157,12 @@ setTimeout(function(){
                     ></div>
         </div>
     </div>
-    <div style="width: 100%; height: 10vh; text-align: center; display: inline-block;">
-		<img src="http://192.168.0.xxx:19999/api/v1/badge.svg?chart=system.uptime&dimensions=uptime&units=hours&divide=3600&refresh=600"></img>
-		<img src="http://192.168.0.xxx:19999/api/v1/badge.svg?chart=system.swap&dimensions=used&units=MB&refresh=600&value_color=Red&label=Swap Used">
-		<img src="http://192.168.0.xxx:19999/api/v1/badge.svg?chart=disk_space._&dimensions=avail&units=GB&refresh=600&value_color=Blue&label=Root">
-		<img src="http://192.168.0.xxx:19999/api/v1/badge.svg?chart=disk_space._backup&dimensions=avail&units=GB&refresh=600&value_color=red&label=Backup">
-		<img src="http://192.168.0.xxx:19999/api/v1/badge.svg?chart=disk_space._mnt_bindmounts_mycloud&dimensions=avail&units=GB&refresh=600&value_color=grey&label=Mycloud">
+    <div style="width: 100%; height: 7vh; text-align: center; display: inline-block;">
+		<img src="http://192.168.0.16:19999/api/v1/badge.svg?chart=system.uptime&dimensions=uptime&units=hours&divide=3600&refresh=600"></img>
+		<img src="http://192.168.0.16:19999/api/v1/badge.svg?chart=system.swap&dimensions=used&units=MB&refresh=600&value_color=Red&label=Swap Used">
+		<img src="http://192.168.0.16:19999/api/v1/badge.svg?chart=disk_space._&dimensions=avail&units=GB&refresh=600&value_color=Blue&label=Root">
+		<img src="http://192.168.0.16:19999/api/v1/badge.svg?chart=disk_space._backup&dimensions=avail&units=GB&refresh=600&value_color=red&label=Backup">
+		<img src="http://192.168.0.16:19999/api/v1/badge.svg?chart=disk_space._mnt_bindmounts_mycloud&dimensions=avail&units=GB&refresh=600&value_color=grey&label=Mycloud">
     </div>
 </div>
 </body>
