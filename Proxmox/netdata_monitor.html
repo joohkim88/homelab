@@ -75,11 +75,11 @@ setTimeout(function(){
 
 <div style="width: 100%; text-align: center; display: inline-block;">
 
-    <div style="width: 100%; height: 30vh; text-align: center; display: inline-block;">
+    <div style="width: 100%; height: 23vh; text-align: center; display: inline-block;">
         <div style="width: 100%; height: calc(100% - 15px); text-align: center; display: inline-block;">
             <br/>
             <div data-netdata="system.cpu"
-		    data-host="http://192.168.0.13:19999"
+                    data-host="http://192.168.0.13:19999"
                     data-title="Prodesk CPU"
                     data-chart-library="dygraph"
                     data-width="49%"
@@ -87,7 +87,7 @@ setTimeout(function(){
                     data-after="-300"
                     data-dygraph-valuerange="[0, 100]"
                     ></div>
-	    <div data-netdata="system.cpu"
+            <div data-netdata="system.cpu"
                     data-title="Nuc CPU"
                     data-chart-library="dygraph"
                     data-width="49%"
@@ -95,35 +95,59 @@ setTimeout(function(){
                     data-after="-300"
                     data-dygraph-valuerange="[0, 100]"
                     ></div>
-	    </div>
+            </div>
     </div>
 
-    <div style="width: 100%; height: 30vh; text-align: center; display: inline-block;">
+    <div style="width: 100%; height: 23vh; text-align: center; display: inline-block;">
         <div style="width: 100%; height: calc(100% - 15px); text-align: center; display: inline-block;">
             <div data-netdata="system.ram"
-		    data-host="http://192.168.0.13:19999"
+                    data-host="http://192.168.0.13:19999"
                     data-title="Prodesk Memory"
                     data-chart-library="dygraph"
                     data-width="49%"
                     data-height="100%"
                     data-after="-300"
-                    data-dygraph-valuerange="[0, 16384]"
+                    data-dygraph-valuerange="[0, 12288]"
                     ></div>
-	    <div data-netdata="system.ram"
+            <div data-netdata="system.ram"
                     data-title="Nuc Memory"
                     data-chart-library="dygraph"
                     data-width="49%"
                     data-height="100%"
                     data-after="-300"
-                    data-dygraph-valuerange="[0, 16384]"
+                    data-dygraph-valuerange="[0, 12288]"
                     ></div>
         </div>
     </div>
 
-    <div style="width: 100%; height: 30vh; text-align: center; display: inline-block;">
+    <div style="width: 100%; height: 23vh; text-align: center; display: inline-block;">
+        <div style="width: 100%; height: calc(100% - 15px); text-align: center; display: inline-block;">
+            <div data-netdata="system.io"
+                    data-host="http://192.168.0.13:19999"
+                    data-title="Prodesk io"
+                     data-common-max="io"
+                     data-common-min="io"
+                     data-chart-library="dygraph"
+                     data-width="49%"
+                     data-height="100%"
+                     data-after="-300"
+                     ></div>
+            <div data-netdata="system.io"
+                    data-title="Nuc io"
+                     data-common-max="io"
+                     data-common-min="io"
+                     data-chart-library="dygraph"
+                     data-width="49%"
+                     data-height="100%"
+                     data-after="-300"
+                     ></div>
+        </div>
+    </div>
+
+    <div style="width: 100%; height: 23vh; text-align: center; display: inline-block;">
         <div style="width: 100%; height: calc(100% - 15px); text-align: center; display: inline-block;">
             <div data-netdata="system.net"
-		    data-host="http://192.168.0.13:19999"
+                    data-host="http://192.168.0.13:19999"
                     data-common-max="traffic"
                     data-common-min="traffic"
                     data-title="Prodesk traffic"
@@ -132,7 +156,7 @@ setTimeout(function(){
                     data-height="100%"
                     data-after="-300"
                     ></div>
-	    <div data-netdata="system.net"
+            <div data-netdata="system.net"
                     data-common-max="traffic"
                     data-common-min="traffic"
                     data-title="Nuc traffic"
@@ -141,15 +165,17 @@ setTimeout(function(){
                     data-height="100%"
                     data-after="-300"
                     ></div>
-	</div>
+        </div>
     </div>
-    <div style="width: 100%; height: 7vh; text-align: center; display: inline-block;">
-		<img src="http://192.168.0.13:19999/api/v1/badge.svg?chart=system.uptime&dimensions=Prodesk uptime&units=hours&divide=3600&refresh=600"></img>
-		<img src="http://192.168.0.16:19999/api/v1/badge.svg?chart=system.uptime&dimensions=Nuc uptime&units=hours&divide=3600&refresh=600"></img>
-		<img src="http://192.168.0.13:19999/api/v1/badge.svg?chart=disk_space._&dimensions=avail&units=GB&refresh=600&value_color=Blue&label=Prodesk Root">
-		<img src="http://192.168.0.16:19999/api/v1/badge.svg?chart=disk_space._&dimensions=avail&units=GB&refresh=600&value_color=Blue&label=Nuc Root">
-		<img src="http://192.168.0.13:19999/api/v1/badge.svg?chart=disk_space._mnt_bindmounts_mycloud&dimensions=avail&units=GB&refresh=600&value_color=grey&label=Mycloud">
-		<img src="http://192.168.0.16:19999/api/v1/badge.svg?chart=disk_space._mnt_bindmounts_seafile&dimensions=avail&units=GB&refresh=600&value_color=orange&label=Seafile">
+    <div style="width: 100%; height: 5vh; text-align: center; display: inline-block;">
+                <img src="http://192.168.0.13:19999/api/v1/badge.svg?chart=system.uptime&dimensions=Prodesk uptime&units=hours&divide=3600&refresh=600"></img>
+                <img src="http://192.168.0.16:19999/api/v1/badge.svg?chart=system.uptime&dimensions=Nuc uptime&units=hours&divide=3600&refresh=600"></img>
+                <img src="http://192.168.0.13:19999/api/v1/badge.svg?chart=system.swap&dimensions=used&units=MB&refresh=600&value_color=Red&label=Prodesk Swap"></img>
+                <img src="http://192.168.0.16:19999/api/v1/badge.svg?chart=system.swap&dimensions=used&units=MB&refresh=600&value_color=Red&label=Nuc Swap"></img>
+                <img src="http://192.168.0.13:19999/api/v1/badge.svg?chart=disk_space._&dimensions=avail&units=GB&refresh=600&value_color=Blue&label=Prodesk Root"></img>
+                <img src="http://192.168.0.16:19999/api/v1/badge.svg?chart=disk_space._&dimensions=avail&units=GB&refresh=600&value_color=Blue&label=Nuc Root"></img>
+                <img src="http://192.168.0.13:19999/api/v1/badge.svg?chart=disk_space._mnt_bindmounts_mycloud&dimensions=avail&units=GB&refresh=600&value_color=grey&label=Mycloud"></img>
+                <img src="http://192.168.0.16:19999/api/v1/badge.svg?chart=disk_space._mnt_bindmounts_seafile&dimensions=avail&units=GB&refresh=600&value_color=orange&label=Seafile"></img>
 
     </div>
 </div>
