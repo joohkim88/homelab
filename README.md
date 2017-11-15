@@ -9,4 +9,4 @@ black2wh.it
 [실시간 서버 모니터링 링크는 여기입니다.](https://monitor.black2wh.it)
 
 
-** 개인 서버의 Gogs로 옮겨갑니다. ** [주소는 여기입니다.](https://git.black2wh.it/joo/homelab)
+**개인 서버의 Gogs로 옮겨갑니다.** [주소는 여기입니다.](https://git.black2wh.it/joo/homelab)
