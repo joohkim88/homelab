@@ -14,6 +14,8 @@ locale-gen en_US.UTF-8
 # 소스 미러를 바꿔줌
 nano /etc/apt/sources.list
 ftp.daumkakao.com
+http://kr.archive.ubuntu.com/
+http://ftp.kr.debian.org/
 
 # 업데이트, fish shell, vim 설치
 apt update ; apt dist-upgrade -y ; apt install fish vim -y ; apt autoremove -y ; usermod -s /usr/bin/fish root
