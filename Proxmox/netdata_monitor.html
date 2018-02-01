@@ -81,8 +81,7 @@ setTimeout(function(){
 
 <body>
 
-<div style="width: 100%; text-align: center; display: inline-block;">
-
+  <div style="width: 100%; text-align: center; display: inline-block;">
     <div style="width: 100%; height: 30vh; text-align: center; display: inline-block;">
         <div style="width: 100%; height: calc(100% - 15px); text-align: center; display: inline-block;">
             <br/>
@@ -100,7 +99,7 @@ setTimeout(function(){
                     data-width="49%"
                     data-height="100%"
                     data-after="-300"
-                    data-dygraph-valuerange="[35, 65]"
+                    data-dygraph-valuerange="[32, 67]"
                     ></div>
          </div>
     </div>
@@ -113,7 +112,7 @@ setTimeout(function(){
                      data-width="49%"
                      data-height="100%"
                      data-after="-300"
-                     data-dygraph-valuerange="[0, 17000]"
+                     data-dygraph-valuerange="[0, 12600]"
                      ></div>
             <div data-netdata="system.swap"
                     data-title="Swap Usage"
@@ -121,14 +120,14 @@ setTimeout(function(){
                      data-width="49%"
                      data-height="100%"
                      data-after="-300"
-                    data-dygraph-valuerange="[0, 4200]"
+                    data-dygraph-valuerange="[0, 2100]"
                      ></div>
         </div>
     </div>
 
     <div style="width: 100%; height: 30vh; text-align: center; display: inline-block;">
         <div style="width: 100%; height: calc(100% - 15px); text-align: center; display: inline-block;">
-            <div data-netdata="disk.nvme0n1"
+            <div data-netdata="disk.sdb"
                     data-title="Disk I/O"
                     data-chart-library="dygraph"
                     data-width="49%"
@@ -152,10 +151,11 @@ setTimeout(function(){
     <div style="width: 100%; height: 5vh; text-align: center; display: inline-block;">
                 <img class="netdata-badge" src="http://192.168.0.16:19999/api/v1/badge.svg?chart=system.uptime&dimensions=uptime&units=hours&divide=3600&refresh=1200&label=Uptime"></img>
                 <img class="netdata-badge" src="http://192.168.0.16:19999/api/v1/badge.svg?chart=disk_space._mnt_bindmounts_plex&dimensions=avail&units=GB&refresh=1200&value_color=orange&label=Plex"></img>
-                <img class="netdata-badge" src="http://192.168.0.16:19999/api/v1/badge.svg?chart=disk_space._mnt_bindmounts_backup&dimensions=avail&units=GB&refresh=1200&value_color=grey&label=Backup"></img>
                 <img class="netdata-badge" src="http://192.168.0.16:19999/api/v1/badge.svg?chart=disk_space._mnt_bindmounts_vault&dimensions=avail&units=GB&refresh=1200&value_color=red&label=Vault"></img>
+                <img class="netdata-badge" src="http://192.168.0.16:19999/api/v1/badge.svg?chart=disk_space._mnt_bindmounts_offsite&dimensions=avail&units=GB&refresh=1200&value_color=grey&label=Offsite"></img>
+                <img class="netdata-badge" src="http://192.168.0.16:19999/api/v1/badge.svg?chart=disk_space._mnt_bindmounts_media&dimensions=avail&units=GB&refresh=1200&value_color=white&label=Media"></img>
+                <img class="netdata-badge" src="http://192.168.0.16:19999/api/v1/badge.svg?chart=disk_space._mnt_pve_backup&dimensions=avail&units=GB&refresh=1200&value_color=blue&label=Backup"></img>
                 <img class="netdata-badge" src="http://192.168.0.16:19999/api/v1/badge.svg?chart=disk_space._mnt_bindmounts_temp&dimensions=avail&units=GB&refresh=1200&value_color=black&label=Temp"></img>
-
     </div>
 </div>
 </body>
