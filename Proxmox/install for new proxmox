@@ -1,4 +1,4 @@
-apt update ; apt dist-upgrade -y ; apt install curl htop cpufrequtils lm-sensors fish vim needrestart gnome-core vlc fonts-nanum -y ; apt purge totem -y ; apt autoremove -y ; usermod -s /usr/bin/fish root
+apt update ; apt dist-upgrade -y ; apt install curl htop cpufrequtils lm-sensors fish vim needrestart gnome-core mpv fonts-nanum -y ; apt purge totem -y ; apt autoremove -y ; usermod -s /usr/bin/fish root
 
 nano /etc/default/cpufrequtils
 GOVERNOR="powersave"
