@@ -1,0 +1,6 @@
+deb http://mirror.kakao.com/debian stretch main contrib
+
+deb http://mirror.kakao.com/debian stretch-updates main contrib
+
+# security updates
+deb http://mirror.kakao.com/debian-security stretch/updates main contrib
