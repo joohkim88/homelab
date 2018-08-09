@@ -6,3 +6,4 @@ GOVERNOR="powersave"
 bash <(curl -Ss https://my-netdata.io/kickstart.sh) all
 
 nano /usr/share/netdata/web/monitor.html
+chown netdata:netdata /usr/share/netdata/web/monitor.html
