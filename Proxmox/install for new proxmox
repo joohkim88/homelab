@@ -2,6 +2,10 @@ apt update ; apt dist-upgrade -y ; apt install curl htop cpufrequtils lm-sensors
 
 adduser joo
 
+mkdir /mnt/bindmounts ; mkdir /mnt/bindmounts/media ; mkdir /mnt/bindmounts/plex ; mkdir /mnt/bindmounts/temp ; mkdir /mnt/bindmounts/vault
+
+lvextend -l +100%FREE pve/data
+
 nano /etc/default/cpufrequtils
 GOVERNOR="powersave"
 
