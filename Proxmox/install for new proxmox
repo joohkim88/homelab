@@ -13,3 +13,13 @@ bash <(curl -Ss https://my-netdata.io/kickstart.sh) all
 
 nano /usr/share/netdata/web/monitor.html
 chown netdata:netdata /usr/share/netdata/web/monitor.html
+
+
+mkdir /etc/X11/xorg.conf.d
+nano /etc/X11/xorg.conf.d/20-intel.conf
+
+Section "Device"
+    Identifier "Intel Graphics"
+    Driver "intel"
+    Option "TearFree" "true"
+EndSection
