@@ -1,4 +1,4 @@
-apt update ; apt dist-upgrade -y ; apt install curl htop cpufrequtils lm-sensors fish vim needrestart gnome-core mpv fonts-nanum apache2 php libapache2-mod-php -y ; apt purge totem -y ; apt autoremove -y ; usermod -s /usr/bin/fish root ; a2enmod php7.0
+apt update ; apt dist-upgrade -y ; apt install curl htop cpufrequtils lm-sensors fish vim needrestart gnome-core mpv fonts-nanum apache2 php libapache2-mod-php php-xml -y ; apt purge totem -y ; apt autoremove -y ; usermod -s /usr/bin/fish root ; a2enmod php7.0
 
 
 adduser joo
