@@ -1,9 +1,9 @@
-apt update ; apt dist-upgrade -y ; apt install curl htop cpufrequtils lm-sensors fish vim needrestart gnome-core mpv fonts-nanum apache2 php libapache2-mod-php php-xml -y ; apt purge totem -y ; apt autoremove -y ; usermod -s /usr/bin/fish root ; a2enmod php7.0
+apt update ; apt dist-upgrade -y ; apt install curl htop cpufrequtils lm-sensors fish vim needrestart -y ; apt autoremove -y ; usermod -s /usr/bin/fish root
 
 
 adduser joo
 
-mkdir /mnt/bindmounts ; mkdir /mnt/bindmounts/media ; mkdir /mnt/bindmounts/plex ; mkdir /mnt/bindmounts/temp ; mkdir /mnt/bindmounts/vault
+mkdir /mnt/bindmounts ; mkdir /mnt/bindmounts/media ; mkdir /mnt/bindmounts/plex ; mkdir /mnt/bindmounts/vault
 
 lvextend -l +100%FREE pve/data
 
@@ -14,13 +14,3 @@ bash <(curl -Ss https://my-netdata.io/kickstart.sh) all
 
 nano /usr/share/netdata/web/monitor.html
 chown netdata:netdata /usr/share/netdata/web/monitor.html
-
-
-mkdir /etc/X11/xorg.conf.d
-nano /etc/X11/xorg.conf.d/20-intel.conf
-
-Section "Device"
-    Identifier "Intel Graphics"
-    Driver "intel"
-    Option "TearFree" "true"
-EndSection
