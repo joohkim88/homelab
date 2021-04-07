@@ -17,5 +17,9 @@ mirror.kakao.com
 kr.archive.ubuntu.com
 ftp.kr.debian.org
 
-# 업데이트, fish shell, vim 설치
-apt update ; apt dist-upgrade -y ; apt install fish vim -y ; apt autoremove -y ; usermod -s /usr/bin/fish root
+# Root ssh 허용
+nano /etc/ssh/sshd_config
+PermitRootLogin yes
+
+# 업데이트, fish shell 설치
+apt update ; apt dist-upgrade -y ; apt install fish -y ; apt autoremove -y ; usermod -s /usr/bin/fish root
