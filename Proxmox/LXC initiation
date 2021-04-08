@@ -18,7 +18,7 @@ kr.archive.ubuntu.com
 ftp.kr.debian.org
 
 # Apt cache 적용
-echo 'Acquire::http { Proxy "http://192.168.0.204:3142"; }' | tee -a /etc/apt/apt.conf.d/proxy
+echo 'Acquire::http::Proxy "http://192.168.0.204:3142";' > /etc/apt/apt.conf.d/00aptproxy
 
 # Root ssh 허용
 nano /etc/ssh/sshd_config
