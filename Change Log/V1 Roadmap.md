@@ -65,14 +65,12 @@ Once done, post a blog article
 ## V 1.0.1 Checklist
 
 #### Tower
-
-    <del>Upgrade Influxdb to v2</del>  Not enough support, keep v1
     
     New Grafana Dashboard
 
 #### Automation1
 
-    External monitoring
+    Telegraf
 
 #### Backup
 
