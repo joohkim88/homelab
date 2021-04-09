@@ -12,84 +12,84 @@
     
         Minor change of hardware
       
-      Addition/deletion of minor hardware
+        Addition/deletion of minor hardware
       
-      Major software change that needs rebooting two or more nodes
+        Major software change that needs rebooting two or more nodes
       
-    Z change
+    Z change
     
-      Minor software changes
+        Minor software changes
       
-      Major software change that needs rebooting one node
+        Major software change that needs rebooting one node
 
 
 ## V1.0.0
 
 ### Tower (Unraid) 192.168.0.100
 
-  HW:
+    HW:
   
-    2600X, 32GB ram, 2.5TB SSD + 48TB HDD, 1660 Super, WinTV QuadHD
+        2600X, 32GB ram, 2.5TB SSD + 48TB HDD, 1660 Super, WinTV QuadHD
     
-  SW:
+    SW:
   
-    Guacamole
+        Guacamole
     
-    Apaxy (webdav sharing)
+        Apaxy (webdav sharing)
     
-    Archivebox
+        Archivebox
     
-    Bitwardenrs
+        Bitwardenrs
     
-    Cloudflare-DDNS
+        Cloudflare-DDNS
     
-    Plex cron rename
+        Plex cron rename
     
-    Ctunnel
+        Ctunnel
     
-    FileBrowser
+        FileBrowser
     
-    Flood (torrent client frontend)
+        Flood (torrent client frontend)
     
-    FreshRSS (news feed)
+        FreshRSS (news feed)
     
-    Ghost
+        Ghost
     
-    Grafana
+        Grafana
     
-    Influxdb
+        Influxdb
     
-    Jellyfin
+        Jellyfin
     
-    SWAG (letsencrypt)
+        SWAG (letsencrypt)
     
-    Mango (comics)
+        Mango (comics)
     
-    Netdata
+        Netdata
     
-    Nextcloud
+        Nextcloud
     
-    Plex
+        Plex
     
-    Psitransfer (sharing files)
+        Psitransfer (sharing files)
     
-    Qbittorrent 
+        Qbittorrent 
     
-    Rstudio
+        Rstudio
     
-    Telegraf
+        Telegraf
     
-    T#
+        T#
     
-    TVheadend
+        TVheadend
     
-    Xteve
+        Xteve
     
-  VM:
+    VM:
   
-    JooRemote Windows 10
+        JooRemote Windows 10
     
-    JaneRemote Windows 10
+        JaneRemote Windows 10
 
 ### Automation1 (Proxmox) 192.168.0.101
 
