@@ -145,54 +145,54 @@
 
     Add:
     
-        - [x]Change IP 192.168.0.100
+        ✓ Change IP 192.168.0.100
         
     Remove:
     
-        Adguard
+        ✓ Adguard
         
-        Wireguard
+        ✓ Wireguard
         
-        Omada controller
+        ✓ Omada controller
 
 ### Automation1
 
     New install
     
-        Change IP 192.168.0.101
+        ✓ Change IP 192.168.0.101
         
-        Wireguard (primary) (200)
+        ✓ Wireguard (primary) (200)
         
-        Vault torrent - Javinizer - openvpn client stack (201)
+        ✓ Vault torrent - Javinizer - openvpn client stack (201)
         
-        EPG2XML - apache2 stack (202)
+        ✓ EPG2XML - apache2 stack (202)
         
-        Omada controller (203)
+        ✓ Omada controller (203)
         
-        Apt cacher ng (204)
+        ✓ Apt cacher ng (204)
 
 ### Backup
 
     New install
     
-        Change IP 192.168.0.102
+        ✓ Change IP 192.168.0.102
         
-        Adguard (primary)
+        ✓ Adguard (primary)
         
-        NFS server
+        ✓ NFS server
         
-        Rclone
+        ✓ Rclone
    
 
 ### Emergency
 
     New install
     
-        Change IP 192.168.0.103
+        ✓ Change IP 192.168.0.103
         
-        Adguard (secondary)
+        ✓ Adguard (secondary)
         
-        Wireguard (emergency)
+        ✓ Wireguard (emergency)
 
 ### Infrastructure
 
@@ -207,70 +207,74 @@ Once done, post a blog article
 
 ### Tower
 
-  Upgrade Influxdb to v2
-  
-  New Grafana Dashboard
+    Upgrade Influxdb to v2
+    
+    New Grafana Dashboard
 
 ### Automation1
 
-  External monitoring
+    External monitoring
 
 ### Backup
 
-  Telegraf
+    Telegraf
 
 ### Emergency
 
-  Telegraf
+    Telegraf
 
 
 ## V1.1.0 Checklist
 
 ### Tower
 
-  Add:
-  
-    (HW) Add 120mm fan
-   
-    (HW) 8 port SAS-SATA PCIE
-   
-    (HW) 2 bay internal HDD cage
-   
-    (HW) 3 bay hot swap HDD cage
-   
-    (HW) Reapply HDD power tape
-   
-    (HW) Replace and label SATA cables
-   
-    (HW) Label SATA Drives
-   
-    (HW) 1x8TB hot spare precleared
-   
-    (HW) 1x8TB cold spare precleared
+    Add:
+    
+        (HW) Add 120mm fan
+        
+        (HW) 8 port SAS-SATA PCIE
+        
+        (HW) 2 bay internal HDD cage
+        
+        (HW) 3 bay hot swap HDD cage
+        
+        (HW) Reapply HDD power tape
+        
+        (HW) Replace and label SATA cables
+        
+        (HW) Label SATA Drives
+        
+        (HW) 1x8TB hot spare precleared
+        
+        (HW) 1x8TB cold spare precleared
+        
+    Remove:
+    
+        (HW) 4 port SATA to PCIe card
 
 
 ## V1.2.0 Checklist
 
 ### KVM1 (PiKVM) 192.168.0.104
 
-  New addition, connected to Tower
+    New addition, connected to 4 port KVM switch
 
 
 ## V1.2.1 Checklist
 
 ### Emergency
 
-  Add:
-  
-    Wake on lan (check bios of each node)
+    Add:
+    
+        Wake on lan (check bios of each node)
 
 
 ## Future todo
 
-Replace Tower CPU to Intel i3,  add ESXi VM server with ryzen
-
-Add 4 port KVM
-
-Add another UPS
-
-2.5Gbe infrastructure
+    Replace Tower CPU to Intel i3,  add ESXi VM server with ryzen
+    
+    Add 4 port KVM
+    
+    Add another UPS
+    
+    2.5Gbe infrastructure
