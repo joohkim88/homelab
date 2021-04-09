@@ -14,9 +14,9 @@
 
     X change
     
-        - Motherboard and/or base OS change on main server
+        Motherboard and/or base OS change on main server
       
-        - Major change of infrastructure
+        Major change of infrastructure
       
     Y change
     
