@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<domain type='kvm' id='4'>
+  <name>Game</name>
+  <uuid></uuid>
+  <metadata>
+    <vmtemplate xmlns="unraid" name="Windows 10" icon="windows.png" os="windows10"/>
+  </metadata>
+  <memory unit='KiB'>16777216</memory>
+  <currentMemory unit='KiB'>16777216</currentMemory>
+  <memoryBacking>
+    <nosharepages/>
+  </memoryBacking>
+  <vcpu placement='static'>8</vcpu>
+  <cputune>
+    <vcpupin vcpu='0' cpuset='4'/>
+    <vcpupin vcpu='1' cpuset='12'/>
+    <vcpupin vcpu='2' cpuset='5'/>
+    <vcpupin vcpu='3' cpuset='13'/>
+    <vcpupin vcpu='4' cpuset='6'/>
+    <vcpupin vcpu='5' cpuset='14'/>
+    <vcpupin vcpu='6' cpuset='7'/>
+    <vcpupin vcpu='7' cpuset='15'/>
+  </cputune>
+  <resource>
+    <partition>/machine</partition>
+  </resource>
+  <os>
+    <type arch='x86_64' machine='pc-i440fx-4.2'>hvm</type>
+    <loader readonly='yes' type='pflash'>/usr/share/qemu/ovmf-x64/OVMF_CODE-pure-efi.fd</loader>
+    <nvram>/etc/libvirt/qemu/nvram/48f3b945-d0fe-61f0-40de-e2ade275664d_VARS-pure-efi.fd</nvram>
+  </os>
+  <features>
+    <acpi/>
+    <apic/>
+    <hyperv>
+      <relaxed state='on'/>
+      <vapic state='on'/>
+      <spinlocks state='on' retries='8191'/>
+      <vpindex state='on'/>
+      <synic state='on'/>
+      <stimer state='on'/>
+      <reset state='on'/>
+      <vendor_id state='on' value='1234567890ab'/>
+      <frequencies state='on'/>
+    </hyperv>
+    <kvm>
+      <hidden state='on'/>
+    </kvm>
+    <vmport state='off'/>
+    <ioapic driver='kvm'/>
+  </features>
+  <cpu mode='host-passthrough' check='none'>
+    <topology sockets='1' cores='4' threads='2'/>
+    <cache mode='passthrough'/>
+    <feature policy='require' name='topoext'/>
+  </cpu>
+  <clock offset='localtime'>
+    <timer name='rtc' present='no' tickpolicy='catchup'/>
+    <timer name='pit' present='no' tickpolicy='delay'/>
+    <timer name='hpet' present='no'/>
+    <timer name='hypervclock' present='yes'/>
+    <timer name='tsc' present='yes' mode='native'/>
+  </clock>
+  <on_poweroff>destroy</on_poweroff>
+  <on_reboot>restart</on_reboot>
+  <on_crash>restart</on_crash>
+  <devices>
+    <emulator>/usr/local/sbin/qemu</emulator>
+    <disk type='file' device='disk'>
+      <driver name='qemu' type='raw' cache='writeback'/>
+      <source file='/mnt/disks/vmstore/JooGame/vdisk1.img' index='2'/>
+      <backingStore/>
+      <target dev='hdc' bus='virtio'/>
+      <boot order='1'/>
+      <alias name='virtio-disk2'/>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x03' function='0x0'/>
+    </disk>
+    <disk type='block' device='disk'>
+      <driver name='qemu' type='raw' cache='writeback'/>
+      <source dev='/dev/disk/by-id/ata-Crucial_CT750MX300SSD1_16141450F097' index='1'/>
+      <backingStore/>
+      <target dev='hdd' bus='sata'/>
+      <alias name='sata0-0-3'/>
+      <address type='drive' controller='0' bus='0' target='0' unit='3'/>
+    </disk>
+    <controller type='usb' index='0' model='qemu-xhci' ports='15'>
+      <alias name='usb'/>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x07' function='0x0'/>
+    </controller>
+    <controller type='sata' index='0'>
+      <alias name='sata0'/>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x04' function='0x0'/>
+    </controller>
+    <controller type='virtio-serial' index='0'>
+      <alias name='virtio-serial0'/>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x05' function='0x0'/>
+    </controller>
+    <controller type='pci' index='0' model='pci-root'>
+      <alias name='pci.0'/>
+    </controller>
+    <interface type='bridge'>
+      <mac address='52:54:00:91:59:de'/>
+      <source bridge='br0'/>
+      <target dev='vnet0'/>
+      <model type='virtio'/>
+      <alias name='net0'/>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x02' function='0x0'/>
+    </interface>
+    <serial type='pty'>
+      <source path='/dev/pts/0'/>
+      <target type='isa-serial' port='0'>
+        <model name='isa-serial'/>
+      </target>
+      <alias name='serial0'/>
+    </serial>
+    <console type='pty' tty='/dev/pts/0'>
+      <source path='/dev/pts/0'/>
+      <target type='serial' port='0'/>
+      <alias name='serial0'/>
+    </console>
+    <channel type='unix'>
+      <source mode='bind' path='/var/lib/libvirt/qemu/channel/target/domain-4-JooGame/org.qemu.guest_agent.0'/>
+      <target type='virtio' name='org.qemu.guest_agent.0' state='disconnected'/>
+      <alias name='channel0'/>
+      <address type='virtio-serial' controller='0' bus='0' port='1'/>
+    </channel>
+    <input type='tablet' bus='usb'>
+      <alias name='input0'/>
+      <address type='usb' bus='0' port='1'/>
+    </input>
+    <input type='mouse' bus='ps2'>
+      <alias name='input1'/>
+    </input>
+    <input type='keyboard' bus='ps2'>
+      <alias name='input2'/>
+    </input>
+    <hostdev mode='subsystem' type='pci' managed='yes'>
+      <driver name='vfio'/>
+      <source>
+        <address domain='0x0000' bus='0x0d' slot='0x00' function='0x0'/>
+      </source>
+      <alias name='hostdev0'/>
+      <rom file='/mnt/user/isos/MSI.GTX1070.8192.161024_2_header_edit.rom'/>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x06' function='0x0'/>
+    </hostdev>
+    <hostdev mode='subsystem' type='pci' managed='yes'>
+      <driver name='vfio'/>
+      <source>
+        <address domain='0x0000' bus='0x0d' slot='0x00' function='0x1'/>
+      </source>
+      <alias name='hostdev1'/>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x08' function='0x0'/>
+    </hostdev>
+    <memballoon model='none'/>
+  </devices>
+  <seclabel type='dynamic' model='dac' relabel='yes'>
+    <label>+0:+100</label>
+    <imagelabel>+0:+100</imagelabel>
+  </seclabel>
+</domain>
