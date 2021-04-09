@@ -115,3 +115,9 @@
         Adguard home (secondary)
         
         Wireguard server (secondary)
+        
+#### Infrastructure
+
+    APC BE550-KR UPS
+    
+    4 port unmanaged switch
