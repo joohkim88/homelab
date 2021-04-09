@@ -145,7 +145,7 @@
 
     Add:
     
-        - [X] Change IP 192.168.0.100
+        - [x]Change IP 192.168.0.100
         
     Remove:
     
