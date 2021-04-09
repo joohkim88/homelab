@@ -66,7 +66,7 @@ Once done, post a blog article
 
 #### Tower
 
-    ~~Upgrade Influxdb to v2~~  Not enough support, keep v1
+    <del>Upgrade Influxdb to v2</del>  Not enough support, keep v1
     
     New Grafana Dashboard
 
