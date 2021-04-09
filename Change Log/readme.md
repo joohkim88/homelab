@@ -120,4 +120,4 @@
 
     APC BE550-KR UPS
     
-    4 port unmanaged switch
+    5 port unmanaged switch
