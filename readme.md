@@ -6,6 +6,8 @@
 
 [실시간 서버 모니터링 링크는 여기입니다.](https://netdata.black2wh.it)
 
+[Homelab 현재 버전 정보](https://github.com/joohkim88/homelab/blob/master/Change%20Log/readme.md)
+
 ---------
 
 ## Versioning info
