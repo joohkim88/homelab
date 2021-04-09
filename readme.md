@@ -279,7 +279,7 @@ Once done, post a blog article
         Wake on lan (check bios of each node)
 
 
-## Future todo
+## Future ideas
 
     Replace Tower CPU to Intel i3,  add ESXi VM server with ryzen
     
