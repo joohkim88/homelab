@@ -23,7 +23,7 @@
         Major software change that needs rebooting one node
 
 
-## V1.0.0
+## V 1.0.0
 
 ### Tower (Unraid) 192.168.0.100
 
@@ -93,25 +93,25 @@
 
 ### Automation1 (Proxmox) 192.168.0.101
 
-  HW:
+    HW:
+
+        G4400T, 8GB ram, 128GB SSD + 1TB HDD
+    
+    SW:
   
-    G4400T, 8GB ram, 128GB SSD + 1TB HDD
+        Wireguard server
     
-  SW:
-  
-    Wireguard server
+        OpenVPN client (nordvpn)
     
-    OpenVPN client (nordvpn)
+        Qbittorrent (vault)
     
-    Qbittorrent (vault)
+        Javinizer (vault)
     
-    Javinizer (vault)
+        EPG2XML
     
-    EPG2XML
+        Omada controller
     
-    Omada controller
-    
-    Apt-cacher-ng
+        Apt-cacher-ng
 
 ### Backup (Armbian) 192.168.0.102
 
