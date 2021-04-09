@@ -20,7 +20,7 @@
       
     Y change
     
-        Minor change of hardware
+        Minor change of hardware or infrastructure
       
         Addition/deletion of minor hardware
 
