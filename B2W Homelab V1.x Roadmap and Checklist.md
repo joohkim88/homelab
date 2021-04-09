@@ -98,107 +98,107 @@
         G4400T, 8GB ram, 128GB SSD + 1TB HDD
     
     SW:
-  
-        Wireguard server
     
-        OpenVPN client (nordvpn)
-    
-        Qbittorrent (vault)
-    
-        Javinizer (vault)
-    
-        EPG2XML
-    
-        Omada controller
-    
-        Apt-cacher-ng
+        Wireguard server
+        
+        OpenVPN client (nordvpn)
+        
+        Qbittorrent (vault)
+        
+        Javinizer (vault)
+        
+        EPG2XML
+        
+        Omada controller
+        
+        Apt-cacher-ng
 
 ### Backup (Armbian) 192.168.0.102
 
-  HW:
-  
-    Odroid HC2, 3TB HDD
+    HW:
     
-  SW:
-  
-    Adguard home (primary)
+        Odroid HC2, 3TB HDD
     
-    NFS server (backup)
+    SW:
     
-    Rclone (onedrive backup)
+        Adguard home (primary)
+        
+        NFS server (backup)
+        
+        Rclone (onedrive backup)
 
 ### Emergency (Raspbian) 192.168.0.103
 
-  HW:
-  
-    Raspberry pi 2 B
+    HW:
     
-  SW:
-  
-    Adguard home (secondary)
+        Raspberry pi 2 B
+        
+    SW:
     
-    Wireguard server (secondary)
+        Adguard home (secondary)
+        
+        Wireguard server (secondary)
 
 ## V1.0.0 Checklist
 
 ### Tower
 
-  Add:
-  
-    Change IP 192.168.0.100
+    Add:
     
-  Remove:
-  
-    Adguard
+        [X] Change IP 192.168.0.100
+        
+    Remove:
     
-    Wireguard
-    
-    Omada controller
+        Adguard
+        
+        Wireguard
+        
+        Omada controller
 
 ### Automation1
 
- New install
- 
-    Change IP 192.168.0.101
+    New install
     
-    Wireguard (primary) (200)
-    
-    Vault torrent - Javinizer - openvpn client stack (201)
-    
-    EPG2XML - apache2 stack (202)
-    
-    Omada controller (203)
-    
-    Apt cacher ng (204)
+        Change IP 192.168.0.101
+        
+        Wireguard (primary) (200)
+        
+        Vault torrent - Javinizer - openvpn client stack (201)
+        
+        EPG2XML - apache2 stack (202)
+        
+        Omada controller (203)
+        
+        Apt cacher ng (204)
 
 ### Backup
 
- New install
- 
-    Change IP 192.168.0.102
+    New install
     
-    Adguard (primary)
-   
-    NFS server
-   
-    Rclone
+        Change IP 192.168.0.102
+        
+        Adguard (primary)
+        
+        NFS server
+        
+        Rclone
    
 
 ### Emergency
 
- New install
- 
-    Change IP 192.168.0.103
+    New install
     
-    Adguard (secondary)
-    
-    Wireguard (emergency)
+        Change IP 192.168.0.103
+        
+        Adguard (secondary)
+        
+        Wireguard (emergency)
 
 ### Infrastructure
 
-  New rack
-  
-  8 port switch
+    New rack
+    
+    8 port switch
 
 Once done, post a blog article
 
