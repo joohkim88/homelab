@@ -107,9 +107,13 @@ Once done, post a blog article
         
         (HW) 1x8TB cold spare precleared
         
+        (HW) Quadro P400 for HW transcoding
+        
     Remove:
     
         (HW) 4 port PCIe to SATA card
+        
+        (HW) 1600 Super for HW transcoding
 
 
 ## V 1.2.0 Checklist
