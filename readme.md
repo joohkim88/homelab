@@ -35,7 +35,7 @@
 
 ## V 1.0.0
 
-### Tower (Unraid) 192.168.0.100
+#### Tower (Unraid) 192.168.0.100
 
     HW:
   
@@ -101,7 +101,7 @@
     
         JaneRemote Windows 10
 
-### Automation1 (Proxmox) 192.168.0.101
+#### Automation1 (Proxmox) 192.168.0.101
 
     HW:
 
@@ -123,7 +123,7 @@
         
         Apt-cacher-ng
 
-### Backup (Armbian) 192.168.0.102
+#### Backup (Armbian) 192.168.0.102
 
     HW:
     
@@ -137,7 +137,7 @@
         
         Rclone (onedrive backup)
 
-### Emergency (Raspbian) 192.168.0.103
+#### Emergency (Raspbian) 192.168.0.103
 
     HW:
     
@@ -151,7 +151,7 @@
 
 ## V 1.0.0 Checklist
 
-### Tower
+#### Tower
 
     Add:
     
@@ -165,7 +165,7 @@
         
         ✓ Omada controller
 
-### Automation1
+#### Automation1
 
     New install
     
@@ -181,7 +181,7 @@
         
         ✓ Apt cacher ng (204)
 
-### Backup
+#### Backup
 
     New install
     
@@ -194,7 +194,7 @@
         ✓ Rclone
    
 
-### Emergency
+#### Emergency
 
     New install
     
@@ -204,7 +204,7 @@
         
         ✓ Wireguard (emergency)
 
-### Infrastructure
+#### Infrastructure
 
     New rack
     
@@ -215,28 +215,28 @@ Once done, post a blog article
 
 ## V 1.0.1 Checklist
 
-### Tower
+#### Tower
 
     Upgrade Influxdb to v2
     
     New Grafana Dashboard
 
-### Automation1
+#### Automation1
 
     External monitoring
 
-### Backup
+#### Backup
 
     Telegraf
 
-### Emergency
+#### Emergency
 
     Telegraf
 
 
 ## V 1.1.0 Checklist
 
-### Tower
+#### Tower
 
     Add:
     
@@ -265,14 +265,14 @@ Once done, post a blog article
 
 ## V 1.2.0 Checklist
 
-### KVM1 (PiKVM) 192.168.0.104
+#### KVM1 (PiKVM) 192.168.0.104
 
     New addition, connected to 4 port KVM switch
 
 
 ## V 1.2.1 Checklist
 
-### Emergency
+#### Emergency
 
     Add:
     
