@@ -10,7 +10,7 @@ vms="$(lxc-ls --active)"
 # Update each vm
 update_vm(){
 local vm="$1"
-echo "*** [VM: $vm [$(hostname) @ $(date)] ] ***"
+echo "*** [Container: $vm [$(hostname) @ $(date)] ] ***"
 /usr/bin/lxc-attach -n "$vm" apt -- -qq update
 /usr/bin/lxc-attach -n "$vm" apt -- -qq -y dist-upgrade
 /usr/bin/lxc-attach -n "$vm" apt -- -qq -y autoremove
