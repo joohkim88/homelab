@@ -113,7 +113,7 @@ Once done, post a blog article
     
         (HW) 4 port PCIe to SATA card
         
-        (HW) 1600 Super for HW transcoding
+        (HW) 1660 Super for HW transcoding
 
 
 ## V 1.2.0 Checklist
