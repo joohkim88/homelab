@@ -2,15 +2,15 @@
 
 ### X.Y.Z
 
-    X change
+    X change
     
-      - Motherboard and/or base OS change on main server
+        - Motherboard and/or base OS change on main server
       
-      - Major change of infrastructure
+        - Major change of infrastructure
       
-    Y change
+    Y change
     
-      Minor change of hardware
+        Minor change of hardware
       
       Addition/deletion of minor hardware
       
