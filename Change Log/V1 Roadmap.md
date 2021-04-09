@@ -134,8 +134,12 @@ Once done, post a blog article
 
 ## Future ideas
 
-    Replace Tower CPU to Intel i3,  add ESXi VM server with ryzen
+    X:
     
-    Add another UPS
+        Replace Tower CPU to Intel i3,  add ESXi VM server with ryzen
+        
+        2.5Gbe infrastructure
     
-    2.5Gbe infrastructure
+    Y:
+    
+        Add another UPS
