@@ -149,7 +149,7 @@
         
         Wireguard server (secondary)
 
-## V1.0.0 Checklist
+## V 1.0.0 Checklist
 
 ### Tower
 
@@ -213,7 +213,7 @@
 Once done, post a blog article
 
 
-## V1.0.1 Checklist
+## V 1.0.1 Checklist
 
 ### Tower
 
@@ -234,7 +234,7 @@ Once done, post a blog article
     Telegraf
 
 
-## V1.1.0 Checklist
+## V 1.1.0 Checklist
 
 ### Tower
 
@@ -263,14 +263,14 @@ Once done, post a blog article
         (HW) 4 port SATA to PCIe card
 
 
-## V1.2.0 Checklist
+## V 1.2.0 Checklist
 
 ### KVM1 (PiKVM) 192.168.0.104
 
     New addition, connected to 4 port KVM switch
 
 
-## V1.2.1 Checklist
+## V 1.2.1 Checklist
 
 ### Emergency
 
