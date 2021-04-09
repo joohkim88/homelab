@@ -1,0 +1,65 @@
+{
+  "GLOBAL": {
+    "ENABLED": true,
+    "FETCH_LIMIT": 2,
+    "ID_FORMAT": "{ServiceId}.{Source.lower()}",
+    "ADD_REBROADCAST_TO_TITLE": false,
+    "ADD_EPNUM_TO_TITLE": true,
+    "ADD_DESCRIPTION": true,
+    "ADD_XMLTV_NS": false,
+    "GET_MORE_DETAILS": false
+  },
+  "KT": {
+    "MY_CHANNELS": []
+  },
+  "LG": {
+    "MY_CHANNELS": [      { "Name": "OBS", "No": "26", "ServiceId": "596", "Category": "지상파" },
+      { "Name": "EBS1", "No": "14", "ServiceId": "505", "Category": "지상파" },
+      { "Name": "EBS2", "No": "95", "ServiceId": "506", "Category": "지상파" },
+      { "Name": "KBS2", "No": "7", "ServiceId": "181", "Category": "지상파" },
+      { "Name": "KBS1 경인", "No": "9", "ServiceId": "508", "Category": "지상파" },
+      { "Name": "MBC", "No": "11", "ServiceId": "503", "Category": "지상파" },
+      { "Name": "SBS", "No": "5", "ServiceId": "504", "Category": "지상파" },
+      { "Name": "tvN", "No": "3", "ServiceId": "682", "Category": "여성/오락" },
+      { "Name": "DRAMAX", "No": "70", "ServiceId": "797", "Category": "여성/오락" },
+      { "Name": "연합뉴스TV", "No": "23", "ServiceId": "734", "Category": "뉴스/경제" },
+      { "Name": "YTN", "No": "24", "ServiceId": "698", "Category": "뉴스/경제" },
+      { "Name": "코미디TV", "No": "77", "ServiceId": "803", "Category": "여성/오락" },
+      { "Name": "KBS드라마", "No": "31", "ServiceId": "617", "Category": "여성/오락" },
+      { "Name": "OCN", "No": "44", "ServiceId": "684", "Category": "영화" },
+      { "Name": "OCN 무비", "No": "45", "ServiceId": "686", "Category": "영화" },
+      { "Name": "스크린", "No": "46", "ServiceId": "652", "Category": "영화" },
+      { "Name": "MNET", "No": "22", "ServiceId": "687", "Category": "여성/오락" },
+      { "Name": "드라마큐브", "No": "71", "ServiceId": "798", "Category": "여성/오락" },
+      { "Name": "AXN", "No": "55", "ServiceId": "744", "Category": "영화" },
+      { "Name": "온스타일", "No": "81", "ServiceId": "778", "Category": "여성/오락" },
+      { "Name": "GTV", "No": "87", "ServiceId": "748", "Category": "여성/오락" },
+      { "Name": "JTBC2", "No": "40", "ServiceId": "606", "Category": "여성/오락" },
+      { "Name": "FUN TV", "No": "98", "ServiceId": "807", "Category": "여성/오락" },
+      { "Name": "MBC ON", "No": "69", "ServiceId": "623", "Category": "여성/오락" },
+      { "Name": "Cook TV", "No": "126", "ServiceId": "564", "Category": "스포츠/취미" },
+      { "Name": "다큐원", "No": "146", "ServiceId": "160", "Category": "교양/다큐" },
+      { "Name": "JTBC4", "No": "88", "ServiceId": "767", "Category": "여성/오락" },
+      { "Name": "GMTV", "No": "152", "ServiceId": "688", "Category": "여성/오락" },
+      { "Name": "SBS스포츠", "No": "104", "ServiceId": "613", "Category": "스포츠/취미" },
+      { "Name": "KBSN스포츠", "No": "105", "ServiceId": "618", "Category": "스포츠/취미" },
+      { "Name": "MBC스포츠+", "No": "106", "ServiceId": "622", "Category": "스포츠/취미" },
+      { "Name": "국회방송", "No": "172", "ServiceId": "717", "Category": "공공/종교" }]
+  },
+  "SK": {
+    "MY_CHANNELS": [
+                { "Name": "Smile TV Plus", "No": "100", "ServiceId": "894", "Category": "예능" }]
+  },
+  "DAUM": {
+    "MY_CHANNELS": []
+  },
+  "NAVER": {
+    "MY_CHANNELS": []
+  },
+  "WAVVE": {
+    "MY_CHANNELS": []
+  },
+  "TVING": {
+    "MY_CHANNELS": []
+  }
+}
