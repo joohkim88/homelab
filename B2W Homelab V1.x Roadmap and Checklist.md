@@ -18,9 +18,9 @@
       
     Z change
     
-        Minor software changes
-      
-        Major software change that needs rebooting one node
+        Minor software changes
+        
+        Major software change that needs rebooting one node
 
 
 ## V1.0.0
