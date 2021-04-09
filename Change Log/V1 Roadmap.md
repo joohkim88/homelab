@@ -117,6 +117,10 @@ Once done, post a blog article
 #### KVM1 (PiKVM) 192.168.0.104
 
     New addition, connected to 4 port KVM switch
+    
+#### Infrastructure
+
+    (HW) 4 port KVM switch
 
 
 ## V 1.2.1 Checklist
@@ -131,8 +135,6 @@ Once done, post a blog article
 ## Future ideas
 
     Replace Tower CPU to Intel i3,  add ESXi VM server with ryzen
-    
-    Add 4 port KVM
     
     Add another UPS
     
