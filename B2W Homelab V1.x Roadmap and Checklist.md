@@ -12,9 +12,9 @@
     
         Minor change of hardware
       
-        Addition/deletion of minor hardware
-      
-        Major software change that needs rebooting two or more nodes
+        Addition/deletion of minor hardware
+
+        Major software change that needs rebooting two or more nodes
       
     Z change
     
