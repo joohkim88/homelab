@@ -66,19 +66,19 @@ Once done, post a blog article
 
 #### Tower
     
-    New Grafana Dashboard
+    ✓ New Grafana Dashboard
 
 #### Automation1
 
-    Telegraf
+    ✓ Telegraf
 
 #### Backup
 
-    Telegraf
+    ✓ Telegraf
 
 #### Emergency
 
-    Telegraf
+    ✓ Telegraf
 
 
 ## V 1.1.0 Checklist
