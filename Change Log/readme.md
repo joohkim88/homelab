@@ -1,5 +1,7 @@
 ## Current Version
 
+![V1 rack](https://github.com/joohkim88/homelab/blob/master/Change%20Log/V1.0.0.jpg)
+
 ## V 1.1.1
 
 #### Domain
