@@ -116,9 +116,9 @@ Once done, post a blog article
 
 ## V 1.1.1 Checklist
 
-    Migrate to new domain joohyung.kim
+    ✓ Migrate to new domain joohyung.kim
     
-        Blog, Nextcloud, Wireguard
+        ✓ Blog, Nextcloud, Wireguard
 
 ## V 1.2.0 Checklist
 
