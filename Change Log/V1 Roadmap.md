@@ -55,9 +55,9 @@
 
 #### Infrastructure
 
-    New rack
+    ✓ New rack
     
-    8 port switch
+    ✓ 8 port switch
 
 Once done, post a blog article
 
@@ -87,29 +87,29 @@ Once done, post a blog article
 
     Add:
     
-        (HW) Add 120mm fan
+        ✓ (HW) Add 120mm fan
         
-        (HW) 8 port SAS-SATA PCIE
+        ✓ (HW) 8 port SAS-SATA PCIE
         
-        (HW) 2 bay internal HDD cage
+        ✓ (HW) 2 bay internal HDD cage
         
-        (HW) 3 bay hot swap HDD cage
+        ✓ (HW) 3 bay hot swap HDD cage
         
-        (HW) Reapply HDD power tape
+        ✓ (HW) Reapply HDD power tape
         
-        (HW) Replace and label SATA cables
+        ✓ (HW) Replace and label SATA cables
         
-        (HW) Label SATA Drives
+        ✓ (HW) Label SATA Drives
         
-        (HW) 1x8TB hot spare precleared
+        ✓ (HW) 1x8TB hot spare precleared
         
-        (HW) 1x8TB cold spare precleared
+        ✓ (HW) 1x8TB cold spare precleared
         
         ✓ (HW) Quadro P400 for HW transcoding
         
     Remove:
     
-        (HW) 4 port PCIe to SATA card
+        ✓ (HW) 4 port PCIe to SATA card
         
         ✓ (HW) 1660 Super for HW transcoding
 
