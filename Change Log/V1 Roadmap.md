@@ -114,6 +114,12 @@ Once done, post a blog article
         ✓ (HW) 1660 Super for HW transcoding
 
 
+## V 1.1.1 Checklist
+
+    Migrate to new domain joohyung.kim
+    
+        Blog, Nextcloud, Wireguard
+
 ## V 1.2.0 Checklist
 
 #### KVM1 (PiKVM) 192.168.0.104
