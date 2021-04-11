@@ -4,7 +4,7 @@
 
 #### Domain
 
-    Changed domain to joohyung.kim
+    Now using joohyung.kim
 
 #### Tower (Unraid) 192.168.0.100
 
