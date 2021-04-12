@@ -171,3 +171,5 @@ Blog post including internals of Tower
     Y:
     
         Add another UPS
+        
+        Move router to the rack - using ehternet port in and phone port out (Allows router to be connected to UPS, which will be turned on during power outage and can send poweroff signals via N.U.T. (Network UPS Tools)
