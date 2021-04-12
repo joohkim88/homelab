@@ -172,4 +172,4 @@ Blog post including internals of Tower
     
         Add another UPS
         
-        Move router to the rack - using ehternet port in and phone port out (Allows router to be connected to UPS, which will maintain routing during power outage so Tower can send poweroff signals to other servers via N.U.T. (Network UPS Tools)
+        Move router to the rack - using ehternet port in and phone port out (Allows router to be connected to UPS, which will maintain routing during power outage so Tower can send poweroff signals to other servers via N.U.T. (Network UPS Tools))
