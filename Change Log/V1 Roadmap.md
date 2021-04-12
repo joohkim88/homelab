@@ -138,6 +138,8 @@ Once done, post a blog article
 
     Replace Mini SAS SFF-8087 to SATA cable to 90 degree one
 
+Blog post including internals of Tower
+
 ## V 1.2.0 Checklist
 
 #### KVM1 (PiKVM) 192.168.0.104
