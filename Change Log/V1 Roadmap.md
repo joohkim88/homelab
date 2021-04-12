@@ -136,7 +136,7 @@ Once done, post a blog article
 
 #### Tower
 
-    Replace Mini SAS - SATA cable to 90 degree one
+    Replace Mini SAS SFF-8087 to SATA cable to 90 degree one
 
 ## V 1.2.0 Checklist
 
