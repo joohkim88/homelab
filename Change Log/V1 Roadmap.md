@@ -120,6 +120,24 @@ Once done, post a blog article
     
         ✓ Blog, Nextcloud, Wireguard
 
+## V 1.1.2 Checklist
+
+#### Tower
+
+    Add:
+    
+        40mm fan to cool HBA
+        
+    Remove:
+    
+        120mm fan (too noisy)
+        
+## V 1.1.3 Checklist
+
+#### Tower
+
+    Replace Mini SAS - SATA cable to 90 degree one
+
 ## V 1.2.0 Checklist
 
 #### KVM1 (PiKVM) 192.168.0.104
