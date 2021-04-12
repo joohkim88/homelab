@@ -12,7 +12,7 @@
 
     HW:
   
-        2600X, 32GB ram, 2.5TB SSD + 56TB HDD, Quadro P400, WinTV QuadHD
+        2600X, 32GB ram, 2.5TB SSD + 56TB HDD, Quadro P400, WinTV QuadHD, LSI 9211-8i HBA
     
     SW:
   
