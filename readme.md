@@ -33,3 +33,5 @@
         Minor software changes
         
         Major software change that needs rebooting one node
+        
+        Minor part change
