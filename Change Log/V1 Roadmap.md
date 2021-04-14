@@ -142,6 +142,18 @@ Blog post including internals of Tower
 
 ## V 1.2.0 Checklist
 
+#### Infrastructure
+
+    Add another UPS
+    
+    Replace current router with Untangle
+    
+    Place Untangle router to the rack
+    
+    Setup N.U.T. for each node
+
+## V 1.3.0 Checklist
+
 #### KVM1 (PiKVM) 192.168.0.104
 
     New addition, connected to 4 port KVM switch
@@ -151,7 +163,7 @@ Blog post including internals of Tower
     (HW) 4 port KVM switch
 
 
-## V 1.2.1 Checklist
+## V 1.3.1 Checklist
 
 #### Emergency
 
@@ -167,11 +179,3 @@ Blog post including internals of Tower
         Replace Tower CPU to Intel i3,  add ESXi VM server with ryzen
         
         2.5Gbe infrastructure
-    
-    Y:
-    
-        Add another UPS
-        
-        Replace current router to Untangle
-        
-        Move router to the rack - using ehternet port in and phone port out (Allows router to be connected to UPS, which will maintain routing during power outage so Tower can send poweroff signals to other servers via N.U.T. (Network UPS Tools))
