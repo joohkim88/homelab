@@ -124,17 +124,7 @@ Once done, post a blog article
 
 #### Tower
 
-    Add:
-    
-        40mm fan to cool HBA
-        
-    Remove:
-    
-        120mm fan (too noisy)
-        
-## V 1.1.3 Checklist
-
-#### Tower
+    Move 120mm fan to cool PCIe cards
 
     Replace Mini SAS SFF-8087 to SATA cable to 90 degree one
 
