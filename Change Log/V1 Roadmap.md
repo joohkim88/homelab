@@ -136,7 +136,7 @@ Blog post including internals of Tower
 
     Add another UPS
     
-    Replace current router with Untangle
+    Replace current router with OPNsense
     
     Place Untangle router to the rack
     
