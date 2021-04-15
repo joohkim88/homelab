@@ -138,7 +138,7 @@ Blog post including internals of Tower
     
     Replace current router with OPNsense
     
-    Place Untangle router to the rack
+    Place OPNsense router to the rack
     
     Setup N.U.T. for each node
 
