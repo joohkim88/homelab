@@ -124,9 +124,9 @@ Once done, post a blog article
 
 #### Tower
 
-    Move 120mm fan to cool PCIe cards
+    ✓ Move 120mm fan to cool PCIe cards
 
-    Replace Mini SAS SFF-8087 to SATA cable to 90 degree one
+    ✓ Replace Mini SAS SFF-8087 to SATA cable to 90 degree one
 
 Blog post including internals of Tower
 
@@ -134,11 +134,11 @@ Blog post including internals of Tower
 
 #### Infrastructure
 
-    Add another UPS
+    ✓ Add another UPS
     
-    Replace current router with OPNsense
+    ✓ Replace current router with OPNsense
     
-    Place OPNsense router to the rack
+    ✓ Place OPNsense router to the rack
     
     Setup N.U.T. for each node
 
