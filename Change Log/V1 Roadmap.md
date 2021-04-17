@@ -144,18 +144,22 @@ Blog post including internals of Tower
 
 ## V 1.3.0 Checklist
 
-#### KVM1 (PiKVM) 192.168.0.104
+#### Emergency
+    
+    Removed
+
+#### KVM1 (PiKVM) 192.168.0.103
 
     New addition, connected to 4 port KVM switch
     
 #### Infrastructure
 
-    (HW) 4 port KVM switch
+    ✓ (HW) 4 port KVM switch
 
 
 ## V 1.3.1 Checklist
 
-#### Emergency
+#### OPNsense
 
     Add:
     
