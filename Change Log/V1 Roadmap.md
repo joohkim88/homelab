@@ -140,7 +140,7 @@ Blog post including internals of Tower
     
     ✓ Place OPNsense router to the rack
     
-    Setup N.U.T. for each node
+    ✓ Setup N.U.T. for each node
 
 ## V 1.3.0 Checklist
 
