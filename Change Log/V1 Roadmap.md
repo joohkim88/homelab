@@ -144,9 +144,17 @@ Blog post including internals of Tower
 
 ## V 1.3.0 Checklist
 
+#### Automation1
+
+    ✓ Add Adguard
+    
+#### OPNsense
+
+    ✓ Add Emergency VPN
+
 #### Emergency
     
-    Removed
+    ✓ Removed
 
 #### KVM1 (PiKVM) 192.168.0.103
 
