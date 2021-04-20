@@ -181,3 +181,5 @@ Blog post including internals of Tower
         Replace Tower CPU to Intel i3,  add ESXi VM server with ryzen
         
         2.5Gbe infrastructure
+
+        IPv6 internal network (Y?)
