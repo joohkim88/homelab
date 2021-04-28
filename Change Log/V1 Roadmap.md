@@ -150,6 +150,8 @@ Blog post including internals of Tower
     
 #### OPNsense
 
+    New addition
+
     ✓ Add Emergency VPN
 
 #### Emergency
