@@ -156,16 +156,32 @@ Blog post including internals of Tower
     
     ✓ Removed
 
-#### KVM1 (PiKVM) 192.168.0.103
-
-    New addition, connected to 4 port KVM switch
     
 #### Infrastructure
 
     ✓ (HW) 4 port KVM switch
 
+## V 1.4.0 Checklist
 
-## V 1.3.1 Checklist
+#### Tower
+
+    Remove :
+    
+        JooRemote VM
+        
+        CPU isolation
+
+#### Remote (Windows 10) 192.168.0.103
+
+    New addition, dedicated Windows remote machine
+
+## V 1.5.0 Checklist
+
+#### KVM1 (PiKVM) 192.168.0.104
+
+    New addition, connected to 4 port KVM switch
+
+## V 1.5.1 Checklist
 
 #### OPNsense
 
