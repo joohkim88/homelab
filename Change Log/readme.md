@@ -1,36 +1,32 @@
 ## Current Version
 
-![V1 rack](https://github.com/joohkim88/homelab/blob/master/Change%20Log/V1.0.0.jpg)
+![V2 rack](https://github.com/joohkim88/homelab/blob/master/Change%20Log/pictures/V2.0.0.jpg)
 
-## V 1.1.1
-
-#### Domain
-
-    Now using joohyung.kim
+## V 2.1.0
 
 #### Tower (Unraid) 192.168.0.100
 
     HW:
   
-        2600X, 32GB ram, 2.5TB SSD + 56TB HDD, Quadro P400, WinTV QuadHD, LSI 9211-8i HBA
+        i3 10100, 16GB ram, 2.5TB SSD + 48TB HDD, WinTV QuadHD, LSI 9211-8i
     
     SW:
+    
+        Adguard Home
   
         Guacamole
     
         Apaxy (webdav sharing)
     
         Archivebox
+        
+        Aria2-with-ariang
+        
+        Minecraft Bedrock server
     
         Bitwardenrs
-    
-        Cloudflare-DDNS
-    
-        Plex cron rename
-    
-        Ctunnel
-    
-        FileBrowser
+        
+        File Browser
     
         Flood (torrent client frontend)
     
@@ -43,10 +39,12 @@
         Influxdb
     
         Jellyfin
-    
-        SWAG (letsencrypt)
+
+        JAVnizer
     
         Mango (comics)
+        
+        MariaDB
     
         Netdata
     
@@ -55,10 +53,12 @@
         Plex
     
         Psitransfer (sharing files)
+        
+        Nginx Proxy Manager
     
-        Qbittorrent 
-    
-        Rstudio
+        Qbittorrent (three instances)
+        
+        Speedtest
     
         Telegraf
     
@@ -67,71 +67,69 @@
         TVheadend
     
         Xteve
-    
-    VM:
-  
-        JooRemote Windows 10
-    
-        JaneRemote Windows 10
+        
+        Youtube-DL
 
-#### Automation1 (Proxmox) 192.168.0.101
+#### Box (Debian) 192.168.0.101
 
     HW:
 
-        G4400T, 8GB ram, 128GB SSD + 1TB HDD
+        Atom N3150, 4GB ram, 32GB SSD + 2TB HDD
     
     SW:
     
-        Wireguard server
-        
-        OpenVPN client (nordvpn)
-        
-        Qbittorrent (vault)
-        
-        Javinizer (vault)
+        Omada Controller
         
         EPG2XML
         
-        Omada controller
+        Flame Dashboard
         
-        Apt-cacher-ng
-        
-        Telegraf
-
-#### Backup (Armbian) 192.168.0.102
-
-    HW:
-    
-        Odroid HC2, 3TB HDD
-    
-    SW:
-    
-        Adguard home (primary)
-        
-        NFS server (backup)
+        Adguard Home
         
         Rclone (onedrive backup)
         
-        Telegraf
+        NFS server (for backup)
 
-#### Emergency (Raspbian) 192.168.0.103
+#### JooRemote (Windows 10 Pro) 192.168.0.102
 
     HW:
     
-        Raspberry pi 2 B
+        i3 6100, 8GB ram, 250GB SSD
+    
+    SW:
+    
+        Windows stuff (for RDP-ing in)
+
+#### PiKVM (PiKVM) 192.168.0.103
+
+    HW:
+    
+        Raspberry pi 4B, CSI2-HDMI bridge, 4 port KVM switch
         
     SW:
     
-        Adguard home (secondary)
+        PiKVM OS - IP KVM
         
-        Wireguard server (secondary)
+#### OPNsense (OPNsense) 192.168.0.1
+
+    HW:
+    
+        Celeron G4400, 8GB ram, 120GB SSD, I350 T4 quad nic
         
-        Telegraf
+    SW:
+    
+        Wireguard Server
+        
+        Suricata
+        
+        Sensei
+        
+        Unbound DNS
         
 #### Infrastructure
 
     APC BE550-KR UPS
     
-    Steel rack
+    APC BE400-KR UPS
     
     8 port unmanaged switch
