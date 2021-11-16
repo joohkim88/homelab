@@ -8,7 +8,7 @@
 
     HW:
   
-        i3 10100, 16GB ram, 3TB SSD + 48TB HDD, WinTV QuadHD, LSI 9211-8i
+        i3 10100, 16GB ram, 3TB SSD + 64TB HDD, WinTV QuadHD, LSI 9211-8i
     
     SW:
     
