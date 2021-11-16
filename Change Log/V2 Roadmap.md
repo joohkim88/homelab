@@ -26,6 +26,12 @@
 
 ## V 2.1.0 Checklist
 
+#### Tower
+
+    Add:
+    
+        ✓ Additional 500GB NVMe SSD
+
 #### OPNsense
 
     Add:
