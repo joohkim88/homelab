@@ -167,29 +167,32 @@ Blog post including internals of Tower
 
 #### Tower
 
-    Remove :
+    ✓ Remove :
     
-        JooRemote VM
+        ✓ JooRemote VM
         
-        CPU isolation
+        ✓ CPU isolation
 
 #### Remote (Windows 10) 192.168.0.103
 
-    New addition, dedicated Windows remote machine
+    ✓ New addition, dedicated Windows remote machine
 
 ## V 1.5.0 Checklist
 
 #### KVM1 (PiKVM) 192.168.0.104
 
-    New addition, connected to 4 port KVM switch
+    ✓ New addition, connected to 4 port KVM switch
 
-## V 1.5.1 Checklist
 
-#### OPNsense
+## V 2.0.0 Upgrade
 
-    Add:
+#### Tower (Unraid) 192.168.0.100
+
+    ✓ Motherboard change
     
-        Wake on lan (check bios of each node)
+    ✓ Intel i3 10100
+    
+    ✓ Dusting, general hardware maintanance
 
 
 ## Future ideas
