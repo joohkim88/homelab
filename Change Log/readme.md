@@ -126,6 +126,8 @@
         
         Unbound DNS
         
+        OpenVPN Client (NordVPN)
+        
 #### Infrastructure
 
     APC BE550-KR UPS
