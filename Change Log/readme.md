@@ -114,7 +114,7 @@
 
     HW:
     
-        Celeron G4400, 8GB ram, 120GB SSD, I350 T4 quad nic
+        Celeron G4400, 8GB ram, 120GB SSD, I350 T4 quad nic, LTE modem (gateway failover)
         
     SW:
     
