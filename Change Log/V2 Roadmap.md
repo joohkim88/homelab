@@ -56,13 +56,13 @@
 
     Add:
     
-        ✓ CPU upgrad to i5 10400
+        ✓ CPU upgrade to i5 10400
         
         ✓ Memory upgrade to 32GB
     
         ✓ Add PCIe to 4 port SATA adapter
         
-        ✓ Handles VM
+        ✓ Handles VMs now
         
 #### Box
 
