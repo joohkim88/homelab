@@ -74,7 +74,7 @@
     
         ✓ Repurpose Odroid HC2
         
-#### Jump (Raspbian), 192.168.50.2
+#### Jump (Raspbian), 192.168.100.2
 
     Add:
     
