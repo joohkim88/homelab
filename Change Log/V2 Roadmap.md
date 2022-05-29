@@ -49,3 +49,41 @@
         ✓ N3150, 4GB ram
         
         ✓ Repurposing CI323 (previous OPNsense box)
+
+## V 2.2.0 Checklist
+
+#### Tower
+
+    Add:
+    
+        ✓ CPU upgrad to i5 10400
+        
+        ✓ Memory upgrade to 32GB
+    
+        ✓ Add PCIe to 4 port SATA adapter
+
+#### OPNsense
+
+    Add:
+    
+        New hardware
+        
+        J4125, 4GB ram, 6 port i225-v B3 stepping
+        
+#### Box
+
+    Removed
+    
+#### Backup (Armbian), 192.168.0.101
+
+    Add:
+    
+        ✓ Repurpose Odroid HC2
+        
+#### Jump (Raspbian), 192.168.50.2
+
+    Add:
+    
+        ✓ Raspberry Pi 2B
+        
+        ✓ Set up for SSH bastion host
