@@ -79,11 +79,3 @@
         ✓ Raspberry Pi 2B
         
         ✓ Set up for SSH bastion host
-
-## V 2.3.0 Checklist
-
-#### Infrastructure
-
-    Add:
-    
-        ✓ Added 1000VA UPS
