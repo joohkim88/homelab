@@ -82,6 +82,14 @@
 
 ## V 2.3.0 Checklist
 
+#### Infrastructure
+
+    Add:
+    
+        ✓ Added 1000VA UPS
+
+## V 2.4.0 Checklist
+
 
 #### OPNsense
 
