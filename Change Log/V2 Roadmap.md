@@ -62,6 +62,8 @@
     
         ✓ Add PCIe to 4 port SATA adapter
         
+        ✓ Handles VM
+        
 #### Box
 
     ✓ Removed
