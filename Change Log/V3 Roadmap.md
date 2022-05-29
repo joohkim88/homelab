@@ -16,3 +16,5 @@
         ✓ 2.5Gbps internal network
         
         ✓ 2.5Gbps internet service
+        
+        ✓ 1000VA UPS
