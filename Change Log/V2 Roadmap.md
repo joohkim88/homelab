@@ -72,7 +72,7 @@
         
 #### Box
 
-    Removed
+    ✓ Removed
     
 #### Backup (Armbian), 192.168.0.101
 
