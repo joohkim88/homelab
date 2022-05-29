@@ -61,14 +61,6 @@
         ✓ Memory upgrade to 32GB
     
         ✓ Add PCIe to 4 port SATA adapter
-
-#### OPNsense
-
-    Add:
-    
-        New hardware
-        
-        J4125, 4GB ram, 6 port i225-v B3 stepping
         
 #### Box
 
@@ -87,3 +79,22 @@
         ✓ Raspberry Pi 2B
         
         ✓ Set up for SSH bastion host
+
+## V 2.3.0 Checklist
+
+
+#### OPNsense
+
+    Add:
+    
+        New hardware
+        
+        J4125, 4GB ram, 6 port i225-v B3 stepping
+        
+#### Infrastructure
+
+    Add:
+    
+        ✓ 2.5Gbps internal network
+        
+        ✓ 2.5Gbps internet service
