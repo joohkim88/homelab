@@ -68,7 +68,7 @@
 
     ✓ Removed
     
-#### Backup (Armbian), 192.168.0.101
+#### Backup (Armbian), 192.168.0.103
 
     Add:
     
