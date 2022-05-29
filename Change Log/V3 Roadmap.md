@@ -28,3 +28,5 @@
         New hardware
         
         Odroid M1 with 4GB ram, 128GB nvme
+        
+        Should wait for official Armbian support
