@@ -7,7 +7,7 @@
     
         New hardware
         
-        J4125, 4GB ram, 6 port i225-v B3 stepping
+        J4125, 4GB ram, 64GB SSD, 6 port i225-v B3 stepping
              
 #### Infrastructure
 
@@ -27,6 +27,6 @@
     
         New hardware
         
-        Odroid M1 with 4GB ram, 128GB nvme
+        Odroid M1 with 4GB ram, 128GB NVMe
         
         Should wait for official Armbian support
