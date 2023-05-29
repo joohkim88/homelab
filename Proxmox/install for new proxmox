@@ -4,5 +4,6 @@ mkdir /mnt/bindmounts ; mkdir /mnt/bindmounts/media ; mkdir /mnt/bindmounts/plex
 
 lvextend -l +100%FREE pve/data
 
-nano /etc/default/cpufrequtils
-GOVERNOR="powersave"
+# apt-cacher-ng
+nano /etc/apt/apt.conf.d/00aptproxy
+Acquire::http::Proxy "http://192.168.254.2:3142";
