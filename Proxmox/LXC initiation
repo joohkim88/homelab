@@ -13,9 +13,12 @@ dpkg-reconfigure locales
 
 # 소스 미러를 바꿔줌
 nano /etc/apt/sources.list
-mirror.kakao.com
 kr.archive.ubuntu.com
 ftp.kr.debian.org
+
+# apt-cacher-ng
+nano /etc/apt/apt.conf.d/00aptproxy
+Acquire::http::Proxy "http://192.168.254.2:3142";
 
 # Root ssh 허용
 nano /etc/ssh/sshd_config
