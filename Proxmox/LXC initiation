@@ -16,7 +16,7 @@ nano /etc/apt/sources.list
 mirror.kakao.com
 
 # apt-cacher-ng
-RUN echo 'Acquire::HTTP::Proxy "http://192.168.254.3:3142";' >> /etc/apt/apt.conf.d/01proxy \
+echo 'Acquire::HTTP::Proxy "http://192.168.254.3:3142";' >> /etc/apt/apt.conf.d/01proxy \
  && echo 'Acquire::HTTPS::Proxy "false";' >> /etc/apt/apt.conf.d/01proxy
 
 # Root ssh 허용
