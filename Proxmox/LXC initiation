@@ -13,12 +13,11 @@ dpkg-reconfigure locales
 
 # 소스 미러를 바꿔줌
 nano /etc/apt/sources.list
-kr.archive.ubuntu.com
-ftp.kr.debian.org
+mirror.kakao.com
 
 # apt-cacher-ng
-nano /etc/apt/apt.conf.d/00aptproxy
-Acquire::http::Proxy "http://192.168.254.3:3142";
+RUN echo 'Acquire::HTTP::Proxy "http://192.168.254.3:3142";' >> /etc/apt/apt.conf.d/01proxy \
+ && echo 'Acquire::HTTPS::Proxy "false";' >> /etc/apt/apt.conf.d/01proxy
 
 # Root ssh 허용
 nano /etc/ssh/sshd_config
