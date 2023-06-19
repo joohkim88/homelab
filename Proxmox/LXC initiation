@@ -6,23 +6,15 @@ dpkg-reconfigure tzdata
 
 # Locale 설정
 export LANGUAGE=en_US.UTF-8
-export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LC_CTYPE=en_US.UTF-8
 locale-gen en_US.UTF-8
 dpkg-reconfigure locales
 
 # 소스 미러를 바꿔줌
 nano /etc/apt/sources.list
 mirror.kakao.com
-
-# apt-cacher-ng
-echo 'Acquire::HTTP::Proxy "http://192.168.254.3:3142";' >> /etc/apt/apt.conf.d/01proxy \
- && echo 'Acquire::HTTPS::Proxy "false";' >> /etc/apt/apt.conf.d/01proxy
-
-# Root ssh 허용
-nano /etc/ssh/sshd_config
-PermitRootLogin yes
-systemctl restart sshd
 
 # 업데이트, fish shell 설치
 apt update ; apt dist-upgrade -y ; apt install fish -y ; apt autoremove -y ; usermod -s /usr/bin/fish root
